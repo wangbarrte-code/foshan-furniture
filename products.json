@@ -49,6 +49,16 @@
    "id": "entry_table",
    "name": "Entry Tables",
    "name_zh": "玄关桌"
+  },
+  {
+   "id": "stone_top",
+   "name": "Stone Tops",
+   "name_zh": "石材桌面"
+  },
+  {
+   "id": "hardware",
+   "name": "Hardware",
+   "name_zh": "五金配件"
   }
  ],
  "products": [
@@ -2391,6 +2401,876 @@
    "description_zh": "佛山源头直供",
    "image": "images/entry_table/storage_013.jpg",
    "sort": 4
+  },
+  {
+   "id": "black-white-root-marble-dining-table_tm",
+   "category": "dining_table",
+   "title": "Black & White Root Marble Dining Table",
+   "title_zh": "黑白根大理石餐桌",
+   "description": "Black & White Root marble top with lacquered metal and stainless steel base.",
+   "description_zh": "黑白根大理石+金属烤漆+不锈钢",
+   "image": "images/dining_table/black-white-root-marble-dining-table-1.webp",
+   "sort": 7
+  },
+  {
+   "id": "naqiu-green-marble-dining-table_tm",
+   "category": "dining_table",
+   "title": "Naqiu Green Marble Dining Table",
+   "title_zh": "纳秋绿大理石餐桌",
+   "description": "Crafted entirely from solid natural marble.",
+   "description_zh": "纯天然大理石制作",
+   "image": "images/dining_table/naqiu-green-marble-dining-table-1.webp",
+   "sort": 8
+  },
+  {
+   "id": "gucci-black-marble-dining-table_tm",
+   "category": "dining_table",
+   "title": "Gucci Black Marble Dining Table",
+   "title_zh": "天然古驰黑大理石餐桌",
+   "description": "Natural Gucci Black marble top with aluminum legs in walnut veneer.",
+   "description_zh": "天然古驰黑大理石+铝板脚贴胡桃木皮",
+   "image": "images/dining_table/gucci-black-marble-dining-table-1.webp",
+   "sort": 9
+  },
+  {
+   "id": "middle-flower-white-marble-dining-table_tm",
+   "category": "dining_table",
+   "title": "Middle Flower White Marble Dining Table",
+   "title_zh": "中花白大理石餐桌",
+   "description": "Middle Flower White marble with fiberglass piano-lacquer finish.",
+   "description_zh": "中花白大理石+玻璃钢钢琴烤漆工艺",
+   "image": "images/dining_table/middle-flower-white-marble-dining-table-1.webp",
+   "sort": 10
+  },
+  {
+   "id": "black-white-root-marble-dining-table-2_tm",
+   "category": "dining_table",
+   "title": "Black & White Root Marble Dining Table",
+   "title_zh": "黑白跟大理石餐桌",
+   "description": "Black & White Root marble top with stainless steel base.",
+   "description_zh": "黑白根大理石+不锈钢",
+   "image": "images/dining_table/black-white-root-marble-dining-table-2-1.webp",
+   "sort": 11
+  },
+  {
+   "id": "moonlight-beige-stone-dining-table_tm",
+   "category": "dining_table",
+   "title": "Moonlight Beige Stone Dining Table",
+   "title_zh": "月光米黄天然石餐桌",
+   "description": "Moonlight Beige natural stone top; base in natural stone and antique-bronze vacuum-plated stainless steel.",
+   "description_zh": "台面:月光米黄天然石 底座：天然石+不锈钢真空镀乱纹青古铜",
+   "image": "images/dining_table/moonlight-beige-stone-dining-table-1.webp",
+   "sort": 12
+  },
+  {
+   "id": "kunlun-green-marble-dining-table_tm",
+   "category": "dining_table",
+   "title": "Kunlun Green Marble Dining Table",
+   "title_zh": "昆仑绿天然大理石餐桌",
+   "description": "Top and legs both crafted from the same Kunlun Green natural marble.",
+   "description_zh": "面板和桌腿均采用同色天然大理石工艺制作",
+   "image": "images/dining_table/kunlun-green-marble-dining-table-1.webp",
+   "sort": 13
+  },
+  {
+   "id": "mica-green-marble-dining-table_tm",
+   "category": "dining_table",
+   "title": "Mica Green Marble Dining Table",
+   "title_zh": "云母绿大理石餐桌",
+   "description": "Mica Green marble top with smoked solid wood legs.",
+   "description_zh": "云母绿大理石+烟熏实木脚",
+   "image": "images/dining_table/mica-green-marble-dining-table-1.webp",
+   "sort": 14
+  },
+  {
+   "id": "naqiu-red-marble-coffee-table_tm",
+   "category": "coffee_table",
+   "title": "Naqiu Red Marble Coffee Table",
+   "title_zh": "纳秋红大理茶几",
+   "description": "Naqiu Red marble top with smoked wood veneer and stainless steel base.",
+   "description_zh": "纳秋红大理石面+烟熏色实木贴皮+不锈钢",
+   "image": "images/coffee_table/naqiu-red-marble-coffee-table-1.webp",
+   "sort": 7
+  },
+  {
+   "id": "naqiu-red-marble-oval-coffee-table_tm",
+   "category": "coffee_table",
+   "title": "Naqiu Red Marble Oval Coffee Table",
+   "title_zh": "纳秋红大理石椭圆茶几",
+   "description": "Solid natural Naqiu Red marble in an oval form.",
+   "description_zh": "天然实心大理石纳秋红",
+   "image": "images/coffee_table/naqiu-red-marble-oval-coffee-table-1.webp",
+   "sort": 8
+  },
+  {
+   "id": "naqiu-green-marble-coffee-table_tm",
+   "category": "coffee_table",
+   "title": "Naqiu Green Marble Coffee Table",
+   "title_zh": "纳秋绿大理石茶几",
+   "description": "Naqiu Green marble top with matching Naqiu Green stone legs.",
+   "description_zh": "纳秋绿大理石面+纳秋绿石脚",
+   "image": "images/coffee_table/naqiu-green-marble-coffee-table-1.webp",
+   "sort": 9
+  },
+  {
+   "id": "naqiu-green-marble-round-coffee-table_tm",
+   "category": "coffee_table",
+   "title": "Naqiu Green Marble Round Coffee Table",
+   "title_zh": "纳秋绿大理石圆茶几",
+   "description": "Natural Naqiu Green marble round top with matching marble base.",
+   "description_zh": "天然大理石纳秋绿石面+纳秋绿大理石脚",
+   "image": "images/coffee_table/naqiu-green-marble-round-coffee-table-1.webp",
+   "sort": 10
+  },
+  {
+   "id": "moonlight-beige-stone-coffee-table_tm",
+   "category": "coffee_table",
+   "title": "Moonlight Beige Stone Coffee Table",
+   "title_zh": "月光米黄天然石茶几",
+   "description": "Moonlight Beige marble top with brushed-bronze vacuum-plated stainless steel legs.",
+   "description_zh": "月光米黄大理石面+不锈钢真空镀层纹青铜拉丝脚",
+   "image": "images/coffee_table/moonlight-beige-stone-coffee-table-1.webp",
+   "sort": 11
+  },
+  {
+   "id": "rosso-levanto-marble-console-table_tm",
+   "category": "entry_table",
+   "title": "Rosso Levanto Marble Console Table",
+   "title_zh": "紫罗红大理石玄关",
+   "description": "Rosso Levanto marble top with brushed-bronze stainless steel, Bulgari Black and Fendi White accents.",
+   "description_zh": "天然大理石紫罗红桌面+ 不锈钢真空镀层纹青铜拉丝+宝格丽黑+芬迪白",
+   "image": "images/entry_table/rosso-levanto-marble-console-table-1.webp",
+   "sort": 5
+  },
+  {
+   "id": "orchid-valley-marble-console-table_tm",
+   "category": "entry_table",
+   "title": "Orchid Valley Marble Console Table",
+   "title_zh": "幽兰河谷大理石玄关",
+   "description": "Orchid Valley marble top with mirror-polished stainless steel legs and upholstered leather accents.",
+   "description_zh": "幽兰河谷脚桌面+不锈钢真空镀本色亮光脚+扪皮",
+   "image": "images/entry_table/orchid-valley-marble-console-table-1.webp",
+   "sort": 6
+  },
+  {
+   "id": "avocado-green-marble-console-table_tm",
+   "category": "entry_table",
+   "title": "Avocado Green Marble Console Table",
+   "title_zh": "牛油果绿大理石玄关",
+   "description": "Avocado Green marble top with polished bronze stainless steel legs, Black & White Root and Jazz White details.",
+   "description_zh": "牛油果绿桌面+不锈钢真空镀青铜亮光脚+黑白根大理石+爵士白大理石",
+   "image": "images/entry_table/avocado-green-marble-console-table-1.webp",
+   "sort": 7
+  },
+  {
+   "id": "bulgari-marble-dining-table_tm",
+   "category": "dining_table",
+   "title": "Bulgari Marble Dining Table",
+   "title_zh": "宝格丽大理石餐桌",
+   "description": "Solid Bulgari Black marble top with wood veneer and solid Bulgari Black marble legs.",
+   "description_zh": "宝格丽黑实心大理石面+实木贴皮+宝格丽黑脚",
+   "image": "images/dining_table/bulgari-marble-dining-table-1.webp",
+   "sort": 15
+  },
+  {
+   "id": "bulgari-black-marble-round-dining-table_tm",
+   "category": "dining_table",
+   "title": "Bulgari Black Marble Round Dining Table",
+   "title_zh": "宝格丽黑大理石圆餐桌",
+   "description": "Solid Bulgari Black marble round top with wood veneer and solid marble base.",
+   "description_zh": "宝格丽黑大理石实心面+实木贴皮+宝格丽大理石实心脚",
+   "image": "images/dining_table/bulgari-black-marble-round-dining-table-1.webp",
+   "sort": 16
+  },
+  {
+   "id": "bulgari-black-round-dining-table_tm",
+   "category": "dining_table",
+   "title": "Bulgari Black Round Dining Table",
+   "title_zh": "宝格丽黑圆餐桌",
+   "description": "Bulgari Black marble top with smoked wood veneer and solid Bulgari Black marble legs.",
+   "description_zh": "宝格丽黑大理石面+烟熏实木贴皮+宝格丽黑大理石实心脚",
+   "image": "images/dining_table/bulgari-black-round-dining-table-1.webp",
+   "sort": 17
+  },
+  {
+   "id": "bulgari-white-marble-dining-table_tm",
+   "category": "dining_table",
+   "title": "Bulgari White Marble Dining Table",
+   "title_zh": "宝格丽白大理石餐桌",
+   "description": "Bulgari White marble top with smoked wood veneer and solid Bulgari White marble base.",
+   "description_zh": "宝格丽白大理石面+烟熏实木贴皮+宝格丽白实心大理石",
+   "image": "images/dining_table/bulgari-white-marble-dining-table-1.webp",
+   "sort": 18
+  },
+  {
+   "id": "middle-flower-white-marble-dining-table-2_tm",
+   "category": "dining_table",
+   "title": "Middle Flower White Marble Dining Table",
+   "title_zh": "中花白大理石餐桌",
+   "description": "Middle Flower White marble top with solid marble and piano-lacquer legs.",
+   "description_zh": "中花白大理石桌面+中花白实心脚+钢琴烤漆脚",
+   "image": "images/dining_table/middle-flower-white-marble-dining-table-2-1.webp",
+   "sort": 19
+  },
+  {
+   "id": "middle-flower-white-marble-round-dining-table_tm",
+   "category": "dining_table",
+   "title": "Middle Flower White Marble Round Dining Table",
+   "title_zh": "中花白大理石圆餐桌",
+   "description": "Middle Flower White marble round top with carved solid marble base.",
+   "description_zh": "中花白大理石桌面+中花白大理石实心雕刻脚",
+   "image": "images/dining_table/middle-flower-white-marble-round-dining-table-1.webp",
+   "sort": 20
+  },
+  {
+   "id": "agate-console-table_tm",
+   "category": "entry_table",
+   "title": "Agate Console Table",
+   "title_zh": "玛瑙玄关",
+   "description": "Natural agate veining with copper-wire inlay.",
+   "description_zh": "天然玛瑙纹+铜丝镶嵌",
+   "image": "images/entry_table/agate-console-table-1.webp",
+   "sort": 8
+  },
+  {
+   "id": "art-luxury-console-table_tm",
+   "category": "entry_table",
+   "title": "Art Luxury Console Table",
+   "title_zh": "艺术轻奢玄关",
+   "description": "Piano-lacquer finish with vintage floral pattern, hand-inlaid Austrian crystals, crocodile-embossed PU and carved metal logo; soft-close hydraulic hinges.",
+   "description_zh": "钢琴烤漆面+复古花卉图案+手工镶嵌奥地利水晶+鳄鱼纹PU+金属雕花logo 柜门五金：静音液压缓冲铰链（金属阻尼）+开合自动缓冲",
+   "image": "images/entry_table/art-luxury-console-table-1.webp",
+   "sort": 9
+  },
+  {
+   "id": "naqiu-red-coffee-table_tm",
+   "category": "coffee_table",
+   "title": "Naqiu Red Coffee Table",
+   "title_zh": "纳秋红茶几",
+   "description": "Naqiu Red marble top with metal legs.",
+   "description_zh": "纳秋红大理石桌面+金属脚",
+   "image": "images/coffee_table/naqiu-red-coffee-table-1.webp",
+   "sort": 12
+  },
+  {
+   "id": "fendi-earring-coffee-table_tm",
+   "category": "coffee_table",
+   "title": "Fendi Earring Coffee Table",
+   "title_zh": "Fendi Earring 耳环茶几",
+   "description": "Carved natural marble with brushed champagne stainless steel base.",
+   "description_zh": "天然大理石雕刻+香槟拉丝不锈钢脚",
+   "image": "images/coffee_table/fendi-earring-coffee-table-1.webp",
+   "sort": 13
+  },
+  {
+   "id": "smoke-pink-marble-dining-table_tm",
+   "category": "dining_table",
+   "title": "Smoke Pink Marble Dining Table",
+   "title_zh": "烟粉大理石餐桌",
+   "description": "Smoke Pink natural luxury stone top with glossy off-white fiberglass base.",
+   "description_zh": "烟粉天然奢石桌面+底座玻璃钢亮光米白",
+   "image": "images/dining_table/smoke-pink-marble-dining-table-1.webp",
+   "sort": 21
+  },
+  {
+   "id": "four-seasons-pink-marble-coffee-table_tm",
+   "category": "coffee_table",
+   "title": "Four Seasons Pink Marble Coffee Table",
+   "title_zh": "四季粉大理石茶几",
+   "description": "Four Seasons Pink natural marble top with upholstered stainless steel legs.",
+   "description_zh": "四季粉天然大理石桌面+扪皮不锈钢脚",
+   "image": "images/coffee_table/four-seasons-pink-marble-coffee-table-1.webp",
+   "sort": 14
+  },
+  {
+   "id": "naqiu-red-marble-dining-table_tm",
+   "category": "dining_table",
+   "title": "Naqiu Red Marble Dining Table",
+   "title_zh": "纳秋红天然大理石餐桌",
+   "description": "Naqiu Red natural marble top with stainless steel legs.",
+   "description_zh": "纳秋红天然大理石桌面+不锈钢脚",
+   "image": "images/dining_table/naqiu-red-marble-dining-table-1.webp",
+   "sort": 22
+  },
+  {
+   "id": "gucci-black-marble-round-dining-table_tm",
+   "category": "dining_table",
+   "title": "Gucci Black Marble Round Dining Table",
+   "title_zh": "古驰黑天然大理石圆餐桌",
+   "description": "Gucci Black natural marble round top with piano-lacquer and metal base.",
+   "description_zh": "古驰黑天然大理石桌面+钢琴烤漆+金属脚",
+   "image": "images/dining_table/gucci-black-marble-round-dining-table-1.webp",
+   "sort": 23
+  },
+  {
+   "id": "jazz-white-marble-coffee-table_tm",
+   "category": "coffee_table",
+   "title": "Jazz White Marble Coffee Table",
+   "title_zh": "爵士白大理石茶几",
+   "description": "Jazz White natural marble top with solid Bulgari Black marble base.",
+   "description_zh": "爵士白天然大理石桌面+宝格丽黑大理石实心脚",
+   "image": "images/coffee_table/jazz-white-marble-coffee-table-1.webp",
+   "sort": 15
+  },
+  {
+   "id": "naqiu-green-marble-coffee-table-2_tm",
+   "category": "coffee_table",
+   "title": "Naqiu Green Marble Coffee Table",
+   "title_zh": "纳秋绿大理石茶几",
+   "description": "Naqiu Green natural marble top with stainless steel metal legs.",
+   "description_zh": "纳秋绿天然大理石桌子面+不锈钢金属脚",
+   "image": "images/coffee_table/naqiu-green-marble-coffee-table-2-1.webp",
+   "sort": 16
+  },
+  {
+   "id": "rosso-levanto-marble-dining-table_tm",
+   "category": "dining_table",
+   "title": "Rosso Levanto Marble Dining Table",
+   "title_zh": "紫罗红大理石餐桌",
+   "description": "Rosso Levanto marble top with piano-lacquer legs.",
+   "description_zh": "紫罗红大理石桌面+钢琴烤漆脚",
+   "image": "images/dining_table/rosso-levanto-marble-dining-table-1.webp",
+   "sort": 24
+  },
+  {
+   "id": "monet-garden-marble-round-dining-table_tm",
+   "category": "dining_table",
+   "title": "Monet Garden Marble Round Dining Table",
+   "title_zh": "莫奈花园大理石圆餐桌",
+   "description": "Monet Garden marble round top with matching stone base, brushed bronze stainless steel and upholstered leather.",
+   "description_zh": "莫奈花园大理石桌面+莫奈花园石头脚+不锈钢真空镀青铜拉丝+扪皮",
+   "image": "images/dining_table/monet-garden-marble-round-dining-table-1.webp",
+   "sort": 25
+  },
+  {
+   "id": "blue-jadeite-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Blue Jadeite Marble Slab",
+   "title_zh": "蓝翡翠大理石",
+   "description": "Blue Jadeite natural marble slab — origin: Madagascar.",
+   "description_zh": "蓝翡翠天然大理石原产地：马达加斯加",
+   "image": "images/stone_top/blue-jadeite-marble-slab-1.webp",
+   "sort": 1
+  },
+  {
+   "id": "ice-diamond-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Ice Diamond Marble Slab",
+   "title_zh": "冰钻天然大理石",
+   "description": "Ice Diamond natural marble slab — origin: China.",
+   "description_zh": "冰钻天然大理石原产地：中国",
+   "image": "images/stone_top/ice-diamond-marble-slab-1.webp",
+   "sort": 2
+  },
+  {
+   "id": "bulgari-black-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Bulgari Black Marble Slab",
+   "title_zh": "宝格丽黑天然大理石",
+   "description": "Bulgari Black natural marble slab — origin: France (Noir Grand Antique).",
+   "description_zh": "宝格丽黑天然大理石原产地：法国（Noir Grand Antique Marble）",
+   "image": "images/stone_top/bulgari-black-marble-slab-1.webp",
+   "sort": 3
+  },
+  {
+   "id": "black-rose-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Black Rose Marble Slab",
+   "title_zh": "黑玫瑰天然大理石",
+   "description": "Black Rose natural marble slab — origin: China.",
+   "description_zh": "黑玫瑰天然大理石原产地：中国",
+   "image": "images/stone_top/black-rose-marble-slab-1.webp",
+   "sort": 4
+  },
+  {
+   "id": "big-flower-white-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Big Flower White Marble Slab",
+   "title_zh": "大花白天然大理石",
+   "description": "Big Flower White natural marble slab — origin: Carrara, Tuscany, Italy.",
+   "description_zh": "中花白天然大理石原产地：意大利・托斯卡纳 卡拉拉矿区（Carrara）",
+   "image": "images/stone_top/big-flower-white-marble-slab-1.webp",
+   "sort": 5
+  },
+  {
+   "id": "big-flower-green-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Big Flower Green Marble Slab",
+   "title_zh": "大花绿天然大理石",
+   "description": "Big Flower Green natural marble slab — origin: Valle d'Aosta, Italy.",
+   "description_zh": "大花绿天然大理石产地：意大利 瓦莱达奥斯塔 Valle d'Aosta",
+   "image": "images/stone_top/big-flower-green-marble-slab-1.webp",
+   "sort": 6
+  },
+  {
+   "id": "cold-jadeite-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Cold Jadeite Marble Slab",
+   "title_zh": "冷翡翠天然大理石",
+   "description": "Cold Jadeite natural marble slab — origin: Yunnan, China.",
+   "description_zh": "冷翡翠天然大理石✅ 原产地：中国云南",
+   "image": "images/stone_top/cold-jadeite-marble-slab-1.webp",
+   "sort": 7
+  },
+  {
+   "id": "ireland-green-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Ireland Green Marble Slab",
+   "title_zh": "爱尔兰绿天然大理石",
+   "description": "Ireland Green natural marble slab — origin: Connemara, County Galway, Ireland.",
+   "description_zh": "爱尔兰绿大理石原石产地：爱尔兰・戈尔韦郡（Galway）康尼马拉 Connemara 矿区",
+   "image": "images/stone_top/ireland-green-marble-slab-1.webp",
+   "sort": 8
+  },
+  {
+   "id": "ice-age-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Ice Age Marble Slab",
+   "title_zh": "冰河世纪天然大理石",
+   "description": "Ice Age natural marble slab — origin: Brazil.",
+   "description_zh": "冰河世纪天然大理石产地：巴西",
+   "image": "images/stone_top/ice-age-marble-slab-1.webp",
+   "sort": 9
+  },
+  {
+   "id": "platinum-diamond-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Platinum Diamond Marble Slab",
+   "title_zh": "铂金钻天然大理石",
+   "description": "Platinum Diamond natural marble slab — origin: Brazil.",
+   "description_zh": "铂金钻天然大理石原产地：巴西",
+   "image": "images/stone_top/platinum-diamond-marble-slab-1.webp",
+   "sort": 10
+  },
+  {
+   "id": "panda-white-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Panda White Marble Slab",
+   "title_zh": "熊猫白天然大理石",
+   "description": "Panda White natural marble slab — origin: Panda Marmara, Turkey.",
+   "description_zh": "熊猫白天然大理石原产地：土耳其熊猫白（Panda Marmara））",
+   "image": "images/stone_top/panda-white-marble-slab-1.webp",
+   "sort": 11
+  },
+  {
+   "id": "prada-green-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Prada Green Marble Slab",
+   "title_zh": "普拉达绿天然大理石",
+   "description": "Prada Green natural marble slab — origin: Valle d'Aosta, Italian Alps.",
+   "description_zh": "普拉达绿天然大理石原石产地：意大利・瓦莱达奥斯塔 Valle d'Aosta（阿尔卑斯山区）",
+   "image": "images/stone_top/prada-green-marble-slab-1.webp",
+   "sort": 12
+  },
+  {
+   "id": "oreo-grey-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Oreo Grey Marble Slab",
+   "title_zh": "奥利奥灰天然大理石",
+   "description": "Oreo Grey natural marble slab — origin: Tuscany, Italy.",
+   "description_zh": "奥利奥灰天然大理石原石产地：意大利托斯卡纳大区",
+   "image": "images/stone_top/oreo-grey-marble-slab-1.webp",
+   "sort": 13
+  },
+  {
+   "id": "star-metal-base_tm",
+   "category": "hardware",
+   "title": "Star Metal Base",
+   "title_zh": "星辰五金脚",
+   "description": "Electroplated titanium-gold stainless steel base, fits console tops 1.0–1.6 m.",
+   "description_zh": "适配玄关桌面：1米-1.6米",
+   "image": "images/hardware/star-metal-base-1.webp",
+   "sort": 1
+  },
+  {
+   "id": "avocado-green-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Avocado Green Marble Slab",
+   "title_zh": "牛油果绿天然大理石",
+   "description": "Avocado Green natural marble slab — origin: Rondônia, Brazil.",
+   "description_zh": "牛油果绿天然大理石原产地：巴西・朗多尼亚州 Rondônia",
+   "image": "images/stone_top/avocado-green-marble-slab-1.webp",
+   "sort": 14
+  },
+  {
+   "id": "pandora-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Pandora Marble Slab",
+   "title_zh": "潘多拉天然大理石",
+   "description": "Pandora natural marble slab — origin: Minas Gerais, Brazil.",
+   "description_zh": "潘多拉天然大理石主产地：巴西・米纳斯吉拉斯州（Minas Gerais）",
+   "image": "images/stone_top/pandora-marble-slab-1.webp",
+   "sort": 15
+  },
+  {
+   "id": "monet-garden-marble-coffee-table_tm",
+   "category": "coffee_table",
+   "title": "Monet Garden Marble Coffee Table",
+   "title_zh": "莫奈花园大理石茶几",
+   "description": "Natural Monet Garden marble.",
+   "description_zh": "莫奈花园天然大理石",
+   "image": "images/coffee_table/monet-garden-marble-coffee-table-1.webp",
+   "sort": 17
+  },
+  {
+   "id": "naqiu-green-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Naqiu Green Marble Slab",
+   "title_zh": "纳秋绿大理石",
+   "description": "Naqiu Green natural marble slab.",
+   "description_zh": "纳秋绿天然大理石",
+   "image": "images/stone_top/naqiu-green-marble-slab-1.webp",
+   "sort": 16
+  },
+  {
+   "id": "petal-mirror-metal-base_tm",
+   "category": "hardware",
+   "title": "Petal Mirror Metal Base",
+   "title_zh": "花瓣镜面五金脚",
+   "description": "Mirror-polished stainless steel petal base, fits round tops Ø1.3–1.5 m.",
+   "description_zh": "适配桌面直径1.3米-1.5米",
+   "image": "images/hardware/petal-mirror-metal-base-1.webp",
+   "sort": 2
+  },
+  {
+   "id": "fendi-metal-base_tm",
+   "category": "hardware",
+   "title": "Fendi Metal Base",
+   "title_zh": "芬迪五金脚",
+   "description": "Stainless steel base, fits tops 1.4–2.2 m.",
+   "description_zh": "适配桌面：1.4米-2.2米",
+   "image": "images/hardware/fendi-metal-base-1.webp",
+   "sort": 3
+  },
+  {
+   "id": "crescent-metal-base_tm",
+   "category": "hardware",
+   "title": "Crescent Metal Table Base",
+   "title_zh": "月牙五金桌脚",
+   "description": "Stainless steel crescent base; small fits 1.4–1.8 m, large fits 2.0–2.4 m.",
+   "description_zh": "小号适配桌面：1.4米-1.8米 大号适配桌面：2米-2.4米",
+   "image": "images/hardware/crescent-metal-base-1.webp",
+   "sort": 4
+  },
+  {
+   "id": "cz075-metal-base_tm",
+   "category": "hardware",
+   "title": "CZ075 Metal Base",
+   "title_zh": "CZ075五金脚",
+   "description": "Brushed stainless steel base, fits tops 1.6–2.2 m.",
+   "description_zh": "适配桌面1.6米-2.2米",
+   "image": "images/hardware/cz075-metal-base-1.webp",
+   "sort": 5
+  },
+  {
+   "id": "cross-metal-base_tm",
+   "category": "hardware",
+   "title": "Cross Metal Base",
+   "title_zh": "十字五金脚",
+   "description": "Brushed stainless steel cross base, fits round tops Ø1.3–1.6 m.",
+   "description_zh": "适配直径桌面：1.3米-1.6米",
+   "image": "images/hardware/cross-metal-base-1.webp",
+   "sort": 6
+  },
+  {
+   "id": "pitcher-metal-base_tm",
+   "category": "hardware",
+   "title": "Pitcher Metal Base",
+   "title_zh": "酒壶五金脚",
+   "description": "Stainless steel pitcher base, fits round tops Ø1.6–2.0 m.",
+   "description_zh": "适配直径桌面1.6米-2米",
+   "image": "images/hardware/pitcher-metal-base-1.webp",
+   "sort": 7
+  },
+  {
+   "id": "lv-metal-base_tm",
+   "category": "hardware",
+   "title": "LV Metal Base",
+   "title_zh": "LV五金脚",
+   "description": "Brushed stainless steel base, fits console tops up to 1.6 m.",
+   "description_zh": "适配玄关桌面1.6米",
+   "image": "images/hardware/lv-metal-base-1.webp",
+   "sort": 8
+  },
+  {
+   "id": "moon-console-metal-base_tm",
+   "category": "hardware",
+   "title": "Moon Console Metal Base",
+   "title_zh": "月亮玄关五金脚",
+   "description": "Champagne-gold stainless steel base; small fits 1.0–1.6 m, large fits 1.8–2.0 m.",
+   "description_zh": "适配玄关桌面小号：1米-1.6米 大号：1.8米-2米",
+   "image": "images/hardware/moon-console-metal-base-1.webp",
+   "sort": 9
+  },
+  {
+   "id": "gaudi-metal-base_tm",
+   "category": "hardware",
+   "title": "Gaudi Metal Base",
+   "title_zh": "高迪五金脚",
+   "description": "Brushed stainless steel base; small fits Ø1.35–1.5 m, large fits Ø1.6–1.8 m.",
+   "description_zh": "适配桌面：小号135米1.50米直径 大号1.6-1.8米直径",
+   "image": "images/hardware/gaudi-metal-base-1.webp",
+   "sort": 10
+  },
+  {
+   "id": "alpha-metal-base_tm",
+   "category": "hardware",
+   "title": "Alpha Metal Base",
+   "title_zh": "阿尔法五金脚",
+   "description": "Stainless steel base, fits tops 1.4–2.0 m.",
+   "description_zh": "适配桌面：1.4米-2米",
+   "image": "images/hardware/alpha-metal-base-1.webp",
+   "sort": 11
+  },
+  {
+   "id": "cz065-smoked-wood-base_tm",
+   "category": "hardware",
+   "title": "CZ065 Smoked Solid Wood Base",
+   "title_zh": "CZ065实木烟熏脚",
+   "description": "Smoked black wood-grain plywood base, fits tops 1.6–2.0 m.",
+   "description_zh": "适配桌面：1.6米.2米",
+   "image": "images/hardware/cz065-smoked-wood-base-1.webp",
+   "sort": 12
+  },
+  {
+   "id": "cz052-long-metal-base_tm",
+   "category": "hardware",
+   "title": "CZ052 Long Metal Base",
+   "title_zh": "CZ052(带杠长五金脚）",
+   "description": "Stainless steel with red antique bronze finish, fits tops 1.8–2.4 m.",
+   "description_zh": "适配桌面：1.8米-2.4米",
+   "image": "images/hardware/cz052-long-metal-base-1.webp",
+   "sort": 13
+  },
+  {
+   "id": "cz054-metal-base_tm",
+   "category": "hardware",
+   "title": "CZ054 Metal Base",
+   "title_zh": "CZ054",
+   "description": "Stainless steel in grey/titanium finish, fits tops 1.4–2.4 m.",
+   "description_zh": "适配桌面1.4米-2.4米",
+   "image": "images/hardware/cz054-metal-base-1.webp",
+   "sort": 14
+  },
+  {
+   "id": "cz088-multi-tube-base_tm",
+   "category": "hardware",
+   "title": "CZ088 Multi-Tube Table Base",
+   "title_zh": "CZ088多管桌",
+   "description": "Mirror stainless steel multi-tube base; small fits 1.3–1.5 m, large fits 1.6–1.8 m.",
+   "description_zh": "适配桌面 小号：1.3米-1.5米 大号：1.6米-1.8米",
+   "image": "images/hardware/cz088-multi-tube-base-1.webp",
+   "sort": 15
+  },
+  {
+   "id": "four-seasons-pink-marble-slab_tm",
+   "category": "stone_top",
+   "title": "Four Seasons Pink Marble Slab",
+   "title_zh": "四季粉大理石",
+   "description": "Four Seasons Pink natural marble slab.",
+   "description_zh": "四季粉天然大理石",
+   "image": "images/stone_top/four-seasons-pink-marble-slab-1.webp",
+   "sort": 17
+  },
+  {
+   "id": "nivola-chair_tm",
+   "category": "dining_chair",
+   "title": "Nivola Chair",
+   "title_zh": "尼沃拉餐椅",
+   "description": "The Nivola chair: Sleek shape, foam cushioning for comfort, thin feet adding dynamism. Perfect for creating a warm, elegant atmosphere.",
+   "description_zh": "尼沃拉餐椅造型流畅，配备泡沫软垫坐感舒适，纤细椅脚更添灵动，非常适合营造温暖雅致的氛围。",
+   "image": "images/dining_chair/nivola-chair-1.jpg",
+   "sort": 20
+  },
+  {
+   "id": "yayun-beige-chair_tm",
+   "category": "dining_chair",
+   "title": "Yayun beige chair",
+   "title_zh": "雅韵米色餐椅",
+   "description": "Yayun Chair: Contemporary design with sculptural silhouette, plush upholstery, and sturdy base. Comfort meets sophistication, perfect for refined spaces.",
+   "description_zh": "雅韵餐椅采用雕塑感轮廓的现代设计，搭配软包面料与稳固底座，兼具舒适感与精致感，适配高雅空间。",
+   "image": "images/dining_chair/yayun-beige-chair-1.jpg",
+   "sort": 21
+  },
+  {
+   "id": "yayun-beige-chair-2_tm",
+   "category": "dining_chair",
+   "title": "Yayun beige Chair",
+   "title_zh": "雅韵米色餐椅",
+   "description": "Contemporary design with sculptural silhouette, plush upholstery and sturdy base. Comfort meets sophistication, perfect for refined spaces.",
+   "description_zh": "这款餐椅为带雕塑感轮廓的现代设计，搭配软包面料与稳固底座，兼具舒适感与精致感，适配高雅空间。",
+   "image": "images/dining_chair/yayun-beige-chair-2-1.jpg",
+   "sort": 22
+  },
+  {
+   "id": "silver-gray-streamlined-chair_tm",
+   "category": "dining_chair",
+   "title": "Silver Gray Streamlined Chair",
+   "title_zh": "银灰流线餐椅",
+   "description": "The Silver Gray Streamlined Chair combines high - density sponge for plush comfort with a thickened stainless - steel frame for robust support. Its sleek design is a modern masterpiece.",
+   "description_zh": "银灰流线餐椅搭载高密度海绵带来软弹坐感，加厚不锈钢框架提供稳固支撑，流畅设计堪称现代杰作。",
+   "image": "images/dining_chair/silver-gray-streamlined-chair-1.jpg",
+   "sort": 23
+  },
+  {
+   "id": "champagne-gold-ring-chair_tm",
+   "category": "dining_chair",
+   "title": "Champagne Gold Ring Chair",
+   "title_zh": "香槟金环形餐椅",
+   "description": "The Champagne Gold Ring Chair features high-density sponge for supreme comfort and a stainless - steel frame. Its unique ring design and elegant lines make it a luxurious accent piece.",
+   "description_zh": "香槟金环形餐椅采用高密度海绵打造极致坐感，搭配不锈钢框架，独特的环形设计与优雅线条让它成为极具奢华感的装饰单品。",
+   "image": "images/dining_chair/champagne-gold-ring-chair-1.jpg",
+   "sort": 24
+  },
+  {
+   "id": "emerald-velvet-chair_tm",
+   "category": "dining_chair",
+   "title": "Emerald velvet chair",
+   "title_zh": "祖母绿天鹅绒餐椅",
+   "description": "The Emerald velvet chair pairs ash wood with high - density sponge, offering both sturdy support and plush comfort. Its rich velvet upholstery exudes timeless elegance.",
+   "description_zh": "祖母绿天鹅绒餐椅采用白蜡木搭配高密度海绵，兼顾稳固支撑与软弹坐感，质感浓郁的丝绒面料散发着经久不衰的雅致感。",
+   "image": "images/dining_chair/emerald-velvet-chair-1.jpg",
+   "sort": 25
+  },
+  {
+   "id": "medallion-grey-wing-chair_tm",
+   "category": "dining_chair",
+   "title": "Medallion Grey Wing Chair",
+   "title_zh": "徽章灰翼背餐椅",
+   "description": "The Medallion Grey Wing Chair boasts gun - gray brushed stainless - steel hardware. Its modern silhouette and refined finish bring a touch of sophistication to any space",
+   "description_zh": "徽章灰翼背餐椅配备枪灰色拉丝不锈钢五金件，现代轮廓与精致饰面为任意空间增添一抹高级感。",
+   "image": "images/dining_chair/medallion-grey-wing-chair-1.jpg",
+   "sort": 26
+  },
+  {
+   "id": "diamond-swivel-chair_tm",
+   "category": "dining_chair",
+   "title": "Diamond Swivel Chair",
+   "title_zh": "钻石旋转餐椅",
+   "description": "A masterpiece of modern design, this chair combines elegance and functionality, offering a luxurious seating experience.",
+   "description_zh": "这款餐椅是现代设计的杰作，兼具美观与实用性，带来奢华的就坐体验。",
+   "image": "images/dining_chair/diamond-swivel-chair-1.jpg",
+   "sort": 27
+  },
+  {
+   "id": "snow-white-velvet-chair_tm",
+   "category": "dining_chair",
+   "title": "Snow white velvet chair",
+   "title_zh": "雪白天鹅绒餐椅",
+   "description": "The Snow white velvet chair combines plush velvet upholstery with sturdy legs. Its elegant curves and premium build make it a luxurious addition to any interior.",
+   "description_zh": "雪白天鹅绒餐椅采用柔软丝绒面料搭配稳固椅腿，优雅曲线与上乘做工让它成为任意室内空间的奢华之选。",
+   "image": "images/dining_chair/snow-white-velvet-chair-1.jpg",
+   "sort": 28
+  },
+  {
+   "id": "obsidian-chair_tm",
+   "category": "dining_chair",
+   "title": "Obsidian chair",
+   "title_zh": "黑曜石餐椅",
+   "description": "The Obsidian chair features a minimalist design with sleek lines. Its high - quality leather upholstery and sturdy frame offer both comfort and a touch of refined elegance.",
+   "description_zh": "黑曜石餐椅为极简设计，线条流畅，优质真皮面料搭配稳固框架，兼具舒适感与雅致格调。",
+   "image": "images/dining_chair/obsidian-chair-1.jpg",
+   "sort": 29
+  },
+  {
+   "id": "letiza-chair_tm",
+   "category": "dining_chair",
+   "title": "Letiza chair",
+   "title_zh": "莱蒂萨餐椅",
+   "description": "Letiza Collection is skillfully combines modern elements with its design that has been meticulously considered in every detail, thus giving your space a timeless elegance.",
+   "description_zh": "莱蒂萨系列设计巧妙融合现代元素，每一处细节都经过精心打磨，为你的空间带来经久不衰的雅致感。",
+   "image": "images/dining_chair/letiza-chair-1.jpg",
+   "sort": 30
+  },
+  {
+   "id": "astra-chair_tm",
+   "category": "dining_chair",
+   "title": "Astra chair",
+   "title_zh": "阿斯特拉餐椅",
+   "description": "The Astra Chair blends modern sophistication and comfort. Sleek armrests enhance visual appeal and provide support, complementing any interior style. Perfect for minimalist luxury with boldness.",
+   "description_zh": "阿斯特拉餐椅兼具现代质感与舒适度，流畅扶手既提升颜值又提供支撑，适配任意室内风格，是打造 bold 风极简奢华感的佳选。",
+   "image": "images/dining_chair/astra-chair-1.jpg",
+   "sort": 31
+  },
+  {
+   "id": "venice-chair_tm",
+   "category": "dining_chair",
+   "title": "Venice Chair",
+   "title_zh": "威尼斯餐椅",
+   "description": "The Venice Chair its a piece of furniture with a modern and elegant design with sharp curves and comfortable armrest.This chair is perfect for those looking for their home spaces or work environment.",
+   "description_zh": "威尼斯餐椅为现代雅致设计，线条利落，扶手舒适，非常适合想要提升家居或办公空间质感的用户。",
+   "image": "images/dining_chair/venice-chair-1.jpg",
+   "sort": 32
+  },
+  {
+   "id": "arc-spindle-chair_tm",
+   "category": "dining_chair",
+   "title": "Arc Spindle Chair",
+   "title_zh": "弧形纺锤餐椅",
+   "description": "The Arc Spindle Chair blends artistry and modernity. It features a graceful arched backrest supported by sleek spindles. Its open design feels light, while the solid base ensures stability.",
+   "description_zh": "弧形纺锤餐椅兼具艺术性与现代感，优雅的弧形靠背由流畅的纺锤杆支撑，开放式设计视觉轻盈，实心底座保障稳固性。",
+   "image": "images/dining_chair/arc-spindle-chair-1.jpg",
+   "sort": 33
+  },
+  {
+   "id": "crestline-chair_tm",
+   "category": "dining_chair",
+   "title": "Crestline Chair",
+   "title_zh": "克莱斯林餐椅",
+   "description": "The Crestline Chair adds modern touch with sleek, contoured silhouette. Its gently curved backrest offers ergonomic support and timeless elegance. Perfect for sophisticated areas, it blends comfort and contemporary charm.",
+   "description_zh": "克莱斯林餐椅以流畅的轮廓设计增添现代感，微弧靠背提供人体工学支撑与经典雅致感，适配高级空间，兼顾舒适度与当代魅力。",
+   "image": "images/dining_chair/crestline-chair-1.jpg",
+   "sort": 34
+  },
+  {
+   "id": "esta-chair_tm",
+   "category": "dining_chair",
+   "title": "Esta Chair",
+   "title_zh": "埃斯塔餐椅",
+   "description": "The Esta Chair is a modernist design,the supermely comfortable. Esta chair is an effortlessly versatile piece integrate it into any living space to give your seating scheme added flexibility.",
+   "description_zh": "埃斯塔餐椅为现代主义设计，坐感极致舒适，适配性极强，可融入任意居住空间，为你的座椅搭配方案增加更多灵活性。",
+   "image": "images/dining_chair/esta-chair-1.jpg",
+   "sort": 35
+  },
+  {
+   "id": "echo-chair_tm",
+   "category": "dining_chair",
+   "title": "Echo Chair",
+   "title_zh": "艾可餐椅",
+   "description": "A modern minimalist design that combines elegance with comfort. Its rounded backrest is upholstered with meticulously crafted vertical stitching, creating a quilted, layered texture that adds visual interest",
+   "description_zh": "这款餐椅为现代极简设计，兼具美观与舒适度，圆形靠背采用工艺精细的竖向缝线，打造出绗缝分层纹理，提升视觉层次感。",
+   "image": "images/dining_chair/echo-chair-1.jpg",
+   "sort": 36
+  },
+  {
+   "id": "luxi-chair_tm",
+   "category": "dining_chair",
+   "title": "Luxi Chair",
+   "title_zh": "卢希餐椅",
+   "description": "The Luxi Chair: Modern, elegant design combining sophistication and comfort. Ergonomic backrest reduces fatigue, ensuring comfort even with long use.",
+   "description_zh": "卢希餐椅为现代雅致设计，兼具高级感与舒适度，人体工学靠背缓解疲劳，长时间久坐也能保持舒适。",
+   "image": "images/dining_chair/luxi-chair-1.jpg",
+   "sort": 37
+  },
+  {
+   "id": "letiza-chair-2_tm",
+   "category": "dining_chair",
+   "title": "Letiza chair",
+   "title_zh": "莱蒂萨餐椅",
+   "description": "Letiza Collection is skillfully combines modern elements with its design that has been meticulously considered in every detail, thus giving your space a timeless elegance.",
+   "description_zh": "莱蒂萨系列设计巧妙融合现代元素，每一处细节都经过精心打磨，为你的空间带来经久不衰的雅致感。",
+   "image": "images/dining_chair/letiza-chair-2-1.jpg",
+   "sort": 38
+  },
+  {
+   "id": "ego-chair_tm",
+   "category": "dining_chair",
+   "title": "Ego Chair",
+   "title_zh": "伊戈餐椅",
+   "description": "Ego chair transfer the luxurious into your space .its a unique piece decorate with a beautiful legs and backside,gives you the comfort and the elegance created by a special design for those looking for a exclusivety.",
+   "description_zh": "伊戈餐椅为你的空间注入奢华感，这款设计独特的单品配有精美椅腿与靠背，专为追求独特性的用户打造，兼顾舒适与雅致感。",
+   "image": "images/dining_chair/ego-chair-1.jpg",
+   "sort": 39
   }
  ]
 }
