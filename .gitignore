@@ -1,0 +1,16 @@
+# 本地工具与后台服务（静态站不需要）
+node_modules/
+server.js
+package.json
+package-lock.json
+admin.html
+ocr_scan.json
+rebuild_products.py
+optimize_images.py
+
+# 源文件（体积大，仅本地保留）
+全屋家居产品图/
+*.tar.gz
+
+# 系统
+.DS_Store

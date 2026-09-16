@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>产品系列 | 佛山源头全屋家居</title>
+<meta name="description" content="Browse our whole home furniture catalog: sofas, beds, dining sets, storage, coffee tables, side tables, dining chairs and arm chairs. Direct from Foshan.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+:root { --bg:#f5f0e8; --card:#fff; --text:#1a1a1a; --text2:#888; --gold:#c8892a; --dark:#0f0f1a; --accent:#8b1a2b; }
+body { font-family:-apple-system,"PingFang SC","Microsoft YaHei",Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); }
+
+/* NAV */
+.nav { background:linear-gradient(135deg,#1a1a1a,#2a2a2a); position:sticky; top:0; z-index:100; }
+.nav-inner { max-width:1200px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; padding:14px 24px; }
+.brand { color:#fff; text-decoration:none; }
+.brand .big { font-size:18px; font-weight:800; letter-spacing:2px; }
+.brand .small { font-size:11px; color:rgba(255,255,255,.6); letter-spacing:3px; }
+.nav-links { display:flex; align-items:center; gap:28px; }
+.nav-links a { color:rgba(255,255,255,.85); text-decoration:none; font-size:13px; transition:.2s; }
+.nav-links a:hover { color:var(--gold); }
+.nav-links a.active { color:var(--gold); font-weight:600; }
+.lang-switch { display:flex; gap:4px; }
+.lang-switch button { background:transparent; border:1px solid rgba(255,255,255,.3); color:#fff; padding:4px 10px; border-radius:6px; font-size:12px; cursor:pointer; }
+.lang-switch button.active { background:var(--gold); border-color:var(--gold); }
+.wa-nav { background:#25d366; color:#fff; padding:8px 16px; border-radius:20px; text-decoration:none; font-size:12px; font-weight:700; }
+.hamburger { display:none; background:none; border:none; color:#fff; font-size:22px; cursor:pointer; }
+
+/* HEADER */
+.header { max-width:1200px; margin:0 auto; padding:50px 24px 20px; }
+.header .en { font-size:12px; letter-spacing:4px; color:var(--text2); text-transform:uppercase; margin-bottom:6px; }
+.header h1 { font-size:32px; font-weight:800; }
+
+/* TABS */
+.tabs-wrap { max-width:1200px; margin:0 auto; padding:0 24px 30px; }
+.tabs { display:flex; gap:10px; flex-wrap:wrap; }
+.tab { padding:10px 22px; border-radius:24px; border:1.5px solid #ddd; background:#fff; font-size:14px; cursor:pointer; transition:.2s; color:#555; font-family:inherit; }
+.tab:hover { border-color:var(--gold); color:var(--gold); }
+.tab.active { background:var(--dark); border-color:var(--dark); color:#fff; }
+
+/* GRID */
+.grid { max-width:1200px; margin:0 auto; padding:0 24px 40px; display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+.card { background:var(--card); display:flex; flex-direction:column; cursor:pointer; transition:.3s; text-decoration:none; color:inherit; border:1px solid rgba(0,0,0,.04); }
+.card:hover { box-shadow:0 8px 30px rgba(0,0,0,.08); transform:translateY(-3px); }
+.card-img { width:100%; aspect-ratio:4/3; overflow:hidden; background:#f0f0f0; display:flex; align-items:center; justify-content:center; }
+.card-img img { width:100%; height:100%; object-fit:cover; transition:.4s; }
+.card:hover .card-img img { transform:scale(1.04); }
+.card-body { padding:16px; flex:1; display:flex; flex-direction:column; }
+.card-title { font-size:15px; font-weight:700; margin-bottom:6px; line-height:1.4; }
+.card-desc { font-size:13px; color:var(--text2); line-height:1.5; flex:1; }
+.card-price { font-size:14px; color:var(--accent); font-weight:700; margin-top:10px; }
+
+/* PAGINATION */
+.pagination { display:flex; justify-content:center; gap:8px; padding:20px 24px 60px; }
+.page-btn { width:36px; height:36px; display:flex; align-items:center; justify-content:center; border-radius:6px; border:1.5px solid #ddd; background:#fff; color:#555; font-size:13px; cursor:pointer; transition:.2s; font-family:inherit; }
+.page-btn:hover { border-color:var(--gold); color:var(--gold); }
+.page-btn.active { background:var(--accent); border-color:var(--accent); color:#fff; }
+.page-btn:disabled { opacity:.4; cursor:not-allowed; }
+
+/* FOOTER */
+.footer { background:var(--dark); color:rgba(255,255,255,.6); padding:24px; text-align:center; font-size:12px; }
+
+/* MOBILE */
+@media (max-width:768px) {
+  .hamburger { display:block; }
+  .nav-links { display:none; position:absolute; top:100%; left:0; right:0; background:rgba(20,20,20,.98); flex-direction:column; padding:18px 24px; gap:14px; align-items:flex-start; }
+  .nav-links.open { display:flex; }
+  .grid { grid-template-columns:repeat(2,1fr); gap:14px; }
+  .header h1 { font-size:24px; }
+}
+@media (max-width:480px) {
+  .grid { grid-template-columns:1fr; }
+}
+
+/* LOADING */
+.loading { text-align:center; padding:60px; color:#999; }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <div class="big" data-i18n="brand">佛山源头全屋家居</div>
+      <div class="small">FOSHAN SOURCE HOME</div>
+    </a>
+    <button class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" data-i18n="nav_home">首页</a>
+      <a href="products.html" class="active" data-i18n="nav_products">产品系列</a>
+      <div class="lang-switch">
+        <button onclick="setLang('en')" id="btn-en">EN</button>
+        <button onclick="setLang('zh')" id="btn-zh">中</button>
+      </div>
+      <a href="https://wa.me/8617724786973" class="wa-nav"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    </div>
+  </div>
+</nav>
+
+<div class="header">
+  <div class="en">PRODUCTS</div>
+  <h1 data-i18n="title">产品系列</h1>
+</div>
+
+<div class="tabs-wrap">
+  <div class="tabs" id="tabs"></div>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="pagination" id="pagination"></div>
+
+<footer class="footer">
+  <div><i class="fab fa-whatsapp" style="color:#25d366"></i> WhatsApp: +86 17724786973</div>
+  <div style="margin-top:6px">&copy; 2026 <span data-i18n="brand">佛山源头全屋家居</span> | Foshan Whole Home Furniture</div>
+</footer>
+
+<script>
+let allData = { categories:[], products:[] };
+let currentCat = 'all';
+let currentPage = 1;
+const perPage = 12;
+let currentLang = localStorage.getItem('foshan_lang') || 'en';
+
+function toggleMenu(){ document.getElementById('navLinks').classList.toggle('open'); }
+
+function setLang(l){
+  currentLang = l;
+  localStorage.setItem('foshan_lang', l);
+  applyLang();
+  renderTabs();
+  renderGrid();
+}
+
+function applyLang(){
+  const t = currentLang === 'zh' ? {
+    brand:'佛山源头全屋家居', nav_home:'首页', nav_products:'产品系列', title:'产品系列'
+  } : {
+    brand:'Foshan Source Home', nav_home:'Home', nav_products:'Products', title:'Product Catalog'
+  };
+  document.querySelectorAll('[data-i18n]').forEach(el=>{
+    const k = el.getAttribute('data-i18n');
+    if(t[k]) el.textContent = t[k];
+  });
+  document.getElementById('btn-en').classList.toggle('active', currentLang==='en');
+  document.getElementById('btn-zh').classList.toggle('active', currentLang==='zh');
+  document.documentElement.lang = currentLang==='zh' ? 'zh' : 'en';
+}
+
+async function loadData(){
+  document.getElementById('grid').innerHTML = '<div class="loading"><i class="fas fa-spinner fa-spin"></i> Loading...</div>';
+  try {
+    const res = await fetch('products.json?t='+Date.now());
+    allData = await res.json();
+  } catch(e) {
+    console.error('Failed to load products.json, using fallback');
+  }
+  initFromHash();
+  applyLang();
+  renderTabs();
+  renderGrid();
+}
+
+function renderTabs(){
+  const tabs = document.getElementById('tabs');
+  let html = `<button class="tab ${currentCat==='all'?'active':''}" onclick="switchCat('all')">${currentLang==='zh'?'全部':'All'}</button>`;
+  allData.categories.forEach(c=>{
+    const label = currentLang==='zh' ? c.name_zh : c.name;
+    html += `<button class="tab ${currentCat===c.id?'active':''}" onclick="switchCat('${c.id}')">${label}</button>`;
+  });
+  tabs.innerHTML = html;
+}
+
+function switchCat(cat){ currentCat=cat; currentPage=1; renderTabs(); renderGrid(); }
+
+function initFromHash(){
+  const h = location.hash.replace('#','');
+  if(h && allData.categories.some(c=>c.id===h)){ currentCat=h; currentPage=1; }
+}
+
+function getFiltered(){
+  if(currentCat==='all') return allData.products;
+  return allData.products.filter(p=>p.category===currentCat);
+}
+
+function renderGrid(){
+  const grid = document.getElementById('grid');
+  const items = getFiltered();
+  const start = (currentPage-1)*perPage;
+  const pageItems = items.slice(start, start+perPage);
+
+  if(pageItems.length===0){
+    grid.innerHTML = '<div class="loading">No products found</div>';
+    renderPagination(0);
+    return;
+  }
+
+  grid.innerHTML = pageItems.map(p=>{
+    const title = currentLang==='zh' ? (p.title_zh||p.title) : p.title;
+    const desc = currentLang==='zh' ? (p.description_zh||p.description) : p.description;
+    return `
+      <div class="card" onclick="inquire('${p.id}')">
+        <div class="card-img"><img src="${p.image}" alt="${title}" loading="lazy" onerror="this.style.display='none'"></div>
+        <div class="card-body">
+          <div class="card-title">${title}</div>
+          <div class="card-desc">${desc||''}</div>
+        </div>
+      </div>`;
+  }).join('');
+
+  renderPagination(items.length);
+}
+
+function renderPagination(total){
+  const pages = Math.ceil(total/perPage);
+  const el = document.getElementById('pagination');
+  if(pages<=1){ el.innerHTML=''; return; }
+  let html = '';
+  html += `<button class="page-btn" onclick="changePage(${currentPage-1})" ${currentPage===1?'disabled':''}>&lt;</button>`;
+
+  const maxVisible = 5;
+  let start = Math.max(1, currentPage - Math.floor(maxVisible/2));
+  let end = Math.min(pages, start + maxVisible - 1);
+  if(end - start < maxVisible - 1){ start = Math.max(1, end - maxVisible + 1); }
+
+  if(start > 1){ html += `<button class="page-btn" onclick="changePage(1)">1</button>`; if(start > 2) html += `<span class="page-btn" style="border:none;background:transparent;cursor:default">...</span>`; }
+  for(let i=start;i<=end;i++){
+    html += `<button class="page-btn ${i===currentPage?'active':''}" onclick="changePage(${i})">${i}</button>`;
+  }
+  if(end < pages){ if(end < pages-1) html += `<span class="page-btn" style="border:none;background:transparent;cursor:default">...</span>`; html += `<button class="page-btn" onclick="changePage(${pages})">${pages}</button>`; }
+
+  html += `<button class="page-btn" onclick="changePage(${currentPage+1})" ${currentPage===pages?'disabled':''}>&gt;</button>`;
+  el.innerHTML = html;
+}
+
+function changePage(p){
+  const pages = Math.ceil(getFiltered().length/perPage);
+  if(p<1 || p>pages) return;
+  currentPage = p;
+  renderGrid();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function inquire(id){
+  const p = allData.products.find(x=>x.id===id);
+  if(!p) return;
+  const title = currentLang==='zh' ? (p.title_zh||p.title) : p.title;
+  const text = `Hi, I'm interested in your product: ${title}`;
+  window.open(`https://wa.me/8617724786973?text=${encodeURIComponent(text)}`, '_blank');
+}
+
+loadData();
+</script>
+</body>
+</html>
