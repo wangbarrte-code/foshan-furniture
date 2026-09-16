@@ -1788,16 +1788,6 @@
    "sort": 14
   },
   {
-   "id": "dining_table_001",
-   "category": "dining_table",
-   "title": "Dining Tables 01",
-   "title_zh": "餐桌 01",
-   "description": "Direct from Foshan factory",
-   "description_zh": "佛山源头直供",
-   "image": "images/dining_table/dining_table_001.jpg",
-   "sort": 1
-  },
-  {
    "id": "dining_table_002",
    "category": "dining_table",
    "title": "Dining Tables 02",
