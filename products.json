@@ -51,11 +51,6 @@
    "name_zh": "玄关桌"
   },
   {
-   "id": "stone_top",
-   "name": "Stone Tops",
-   "name_zh": "石材桌面"
-  },
-  {
    "id": "hardware",
    "name": "Hardware",
    "name_zh": "五金配件"
@@ -2743,136 +2738,6 @@
    "sort": 25
   },
   {
-   "id": "blue-jadeite-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Blue Jadeite Marble Slab",
-   "title_zh": "蓝翡翠大理石",
-   "description": "Blue Jadeite natural marble slab — origin: Madagascar.",
-   "description_zh": "蓝翡翠天然大理石原产地：马达加斯加",
-   "image": "images/stone_top/blue-jadeite-marble-slab-1.webp",
-   "sort": 1
-  },
-  {
-   "id": "ice-diamond-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Ice Diamond Marble Slab",
-   "title_zh": "冰钻天然大理石",
-   "description": "Ice Diamond natural marble slab — origin: China.",
-   "description_zh": "冰钻天然大理石原产地：中国",
-   "image": "images/stone_top/ice-diamond-marble-slab-1.webp",
-   "sort": 2
-  },
-  {
-   "id": "bulgari-black-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Bulgari Black Marble Slab",
-   "title_zh": "宝格丽黑天然大理石",
-   "description": "Bulgari Black natural marble slab — origin: France (Noir Grand Antique).",
-   "description_zh": "宝格丽黑天然大理石原产地：法国（Noir Grand Antique Marble）",
-   "image": "images/stone_top/bulgari-black-marble-slab-1.webp",
-   "sort": 3
-  },
-  {
-   "id": "black-rose-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Black Rose Marble Slab",
-   "title_zh": "黑玫瑰天然大理石",
-   "description": "Black Rose natural marble slab — origin: China.",
-   "description_zh": "黑玫瑰天然大理石原产地：中国",
-   "image": "images/stone_top/black-rose-marble-slab-1.webp",
-   "sort": 4
-  },
-  {
-   "id": "big-flower-white-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Big Flower White Marble Slab",
-   "title_zh": "大花白天然大理石",
-   "description": "Big Flower White natural marble slab — origin: Carrara, Tuscany, Italy.",
-   "description_zh": "中花白天然大理石原产地：意大利・托斯卡纳 卡拉拉矿区（Carrara）",
-   "image": "images/stone_top/big-flower-white-marble-slab-1.webp",
-   "sort": 5
-  },
-  {
-   "id": "big-flower-green-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Big Flower Green Marble Slab",
-   "title_zh": "大花绿天然大理石",
-   "description": "Big Flower Green natural marble slab — origin: Valle d'Aosta, Italy.",
-   "description_zh": "大花绿天然大理石产地：意大利 瓦莱达奥斯塔 Valle d'Aosta",
-   "image": "images/stone_top/big-flower-green-marble-slab-1.webp",
-   "sort": 6
-  },
-  {
-   "id": "cold-jadeite-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Cold Jadeite Marble Slab",
-   "title_zh": "冷翡翠天然大理石",
-   "description": "Cold Jadeite natural marble slab — origin: Yunnan, China.",
-   "description_zh": "冷翡翠天然大理石✅ 原产地：中国云南",
-   "image": "images/stone_top/cold-jadeite-marble-slab-1.webp",
-   "sort": 7
-  },
-  {
-   "id": "ireland-green-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Ireland Green Marble Slab",
-   "title_zh": "爱尔兰绿天然大理石",
-   "description": "Ireland Green natural marble slab — origin: Connemara, County Galway, Ireland.",
-   "description_zh": "爱尔兰绿大理石原石产地：爱尔兰・戈尔韦郡（Galway）康尼马拉 Connemara 矿区",
-   "image": "images/stone_top/ireland-green-marble-slab-1.webp",
-   "sort": 8
-  },
-  {
-   "id": "ice-age-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Ice Age Marble Slab",
-   "title_zh": "冰河世纪天然大理石",
-   "description": "Ice Age natural marble slab — origin: Brazil.",
-   "description_zh": "冰河世纪天然大理石产地：巴西",
-   "image": "images/stone_top/ice-age-marble-slab-1.webp",
-   "sort": 9
-  },
-  {
-   "id": "platinum-diamond-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Platinum Diamond Marble Slab",
-   "title_zh": "铂金钻天然大理石",
-   "description": "Platinum Diamond natural marble slab — origin: Brazil.",
-   "description_zh": "铂金钻天然大理石原产地：巴西",
-   "image": "images/stone_top/platinum-diamond-marble-slab-1.webp",
-   "sort": 10
-  },
-  {
-   "id": "panda-white-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Panda White Marble Slab",
-   "title_zh": "熊猫白天然大理石",
-   "description": "Panda White natural marble slab — origin: Panda Marmara, Turkey.",
-   "description_zh": "熊猫白天然大理石原产地：土耳其熊猫白（Panda Marmara））",
-   "image": "images/stone_top/panda-white-marble-slab-1.webp",
-   "sort": 11
-  },
-  {
-   "id": "prada-green-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Prada Green Marble Slab",
-   "title_zh": "普拉达绿天然大理石",
-   "description": "Prada Green natural marble slab — origin: Valle d'Aosta, Italian Alps.",
-   "description_zh": "普拉达绿天然大理石原石产地：意大利・瓦莱达奥斯塔 Valle d'Aosta（阿尔卑斯山区）",
-   "image": "images/stone_top/prada-green-marble-slab-1.webp",
-   "sort": 12
-  },
-  {
-   "id": "oreo-grey-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Oreo Grey Marble Slab",
-   "title_zh": "奥利奥灰天然大理石",
-   "description": "Oreo Grey natural marble slab — origin: Tuscany, Italy.",
-   "description_zh": "奥利奥灰天然大理石原石产地：意大利托斯卡纳大区",
-   "image": "images/stone_top/oreo-grey-marble-slab-1.webp",
-   "sort": 13
-  },
-  {
    "id": "star-metal-base_tm",
    "category": "hardware",
    "title": "Star Metal Base",
@@ -2883,26 +2748,6 @@
    "sort": 1
   },
   {
-   "id": "avocado-green-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Avocado Green Marble Slab",
-   "title_zh": "牛油果绿天然大理石",
-   "description": "Avocado Green natural marble slab — origin: Rondônia, Brazil.",
-   "description_zh": "牛油果绿天然大理石原产地：巴西・朗多尼亚州 Rondônia",
-   "image": "images/stone_top/avocado-green-marble-slab-1.webp",
-   "sort": 14
-  },
-  {
-   "id": "pandora-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Pandora Marble Slab",
-   "title_zh": "潘多拉天然大理石",
-   "description": "Pandora natural marble slab — origin: Minas Gerais, Brazil.",
-   "description_zh": "潘多拉天然大理石主产地：巴西・米纳斯吉拉斯州（Minas Gerais）",
-   "image": "images/stone_top/pandora-marble-slab-1.webp",
-   "sort": 15
-  },
-  {
    "id": "monet-garden-marble-coffee-table_tm",
    "category": "coffee_table",
    "title": "Monet Garden Marble Coffee Table",
@@ -2911,16 +2756,6 @@
    "description_zh": "莫奈花园天然大理石",
    "image": "images/coffee_table/monet-garden-marble-coffee-table-1.webp",
    "sort": 17
-  },
-  {
-   "id": "naqiu-green-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Naqiu Green Marble Slab",
-   "title_zh": "纳秋绿大理石",
-   "description": "Naqiu Green natural marble slab.",
-   "description_zh": "纳秋绿天然大理石",
-   "image": "images/stone_top/naqiu-green-marble-slab-1.webp",
-   "sort": 16
   },
   {
    "id": "petal-mirror-metal-base_tm",
@@ -3061,16 +2896,6 @@
    "description_zh": "适配桌面 小号：1.3米-1.5米 大号：1.6米-1.8米",
    "image": "images/hardware/cz088-multi-tube-base-1.webp",
    "sort": 15
-  },
-  {
-   "id": "four-seasons-pink-marble-slab_tm",
-   "category": "stone_top",
-   "title": "Four Seasons Pink Marble Slab",
-   "title_zh": "四季粉大理石",
-   "description": "Four Seasons Pink natural marble slab.",
-   "description_zh": "四季粉天然大理石",
-   "image": "images/stone_top/four-seasons-pink-marble-slab-1.webp",
-   "sort": 17
   },
   {
    "id": "nivola-chair_tm",
